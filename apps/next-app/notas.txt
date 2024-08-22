@@ -1,0 +1,9 @@
+1.- Filtro de comparaciones entre prrecios Solo (rojo, verde, todos)
+2.- coregir Codogo por Código en productCard
+3.- css print
+4.- mover el validador de formato del excel al back
+5.- Implementar gestion de archivos Prices, eliminar, descargar, listar
+
+
+
+useSearchParams
