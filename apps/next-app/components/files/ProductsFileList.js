@@ -54,7 +54,7 @@ export default function ProductsFileList({ reloadList }) {
               <TableRow>
                 <TableCell sx={{ width: "60%" }}>Nombre del Archivo</TableCell>
                 <TableCell>Fecha</TableCell>
-                <TableCell>Acciones</TableCell>
+                <TableCell></TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

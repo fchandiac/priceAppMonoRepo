@@ -34,7 +34,7 @@ export default function page() {
               <FileUploadIcon />
             </IconButton>
           </Tooltip>
-          <Tooltip title="Recargar Precios en servidor">
+          <Tooltip title="Recargar productos en servidor">
             <IconButton
               onClick={() => {
                 loadProducts();

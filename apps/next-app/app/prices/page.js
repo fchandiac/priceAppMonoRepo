@@ -13,11 +13,12 @@ import {
   Typography,
   Box,
 } from "@mui/material";
-import moment from "moment/moment";
+
 
 export default function HomePage({ searchParams }) {
   // Acceder a los parámetros de búsqueda directamente desde los props
   const { code, name, commerce, page, limit, startDate, endDate} = searchParams;
+
 
   // Estado para almacenar los datos obtenidos
   const [data, setData] = useState({ prices: [], totalPages: 0 });

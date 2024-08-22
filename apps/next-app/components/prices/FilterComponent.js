@@ -14,8 +14,8 @@ const FilterComponent = () => {
   const [commerce, setCommerce] = useState(searchParams.get("commerce") || "");
   const [limit, setLimit] = useState(searchParams.get("limit") || 10);
   const [startDate, setStartDate] = useState(
-    searchParams.get("startDate") ||
-      moment().subtract(1, "months").format("YYYY-MM-DD")
+    searchParams.get("startDate") || moment().subtract(1, 'months').format("YYYY-MM-DD")
+      
   );
   const [endDate, setEndDate] = useState(
     searchParams.get("endDate") || moment().format("YYYY-MM-DD")
@@ -25,6 +25,7 @@ const FilterComponent = () => {
     const params = new URLSearchParams(searchParams.toString());
     if (value !== "" && value !== null) {
       params.set("page", 1);
+      params.set("startDate", startDate);
       params.set(key, value);
     } else {
       params.delete(key);
@@ -111,14 +112,6 @@ const FilterComponent = () => {
         />
       </Grid>
       <Grid item xs={12} sm={4}>
-        {/* <Input
-          type="date"
-          label="Fecha Fin"
-          value={endDate}
-          onChange={(e) => setEndDate(e.target.value)}
-          fullWidth
-          size="small"
-        /> */}
         <TextField
           type="date"
           label="Fecha Fin"

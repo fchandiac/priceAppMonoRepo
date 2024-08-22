@@ -6,6 +6,8 @@
 /apps/*/dist
 /apps/*/build
 
+/apps/*/.next
+
 # Logs
 logs
 *.log

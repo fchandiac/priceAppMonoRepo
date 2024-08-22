@@ -4,6 +4,7 @@ const path = require('path');
 const router = express.Router();
 const { getAllPrices, getUniqueCommerces, getPricesByProductCode, initializeDatabase, getPricesWithProductName } = require('../db');
 const { readExcelFilesAndUpdateJsonPrices } = require('../utils/loadPrices');
+const moment = require('moment');
 
 // Ruta para agregar un nuevo elemento al JSON
 router.post("/prices/addItem", (req, res) => {
@@ -123,7 +124,7 @@ router.post('/prices/findAllByProduct', (req, res) => {
 router.post('/prices/filter', (req, res) => {
     const { code='', name='', commerce= '', page = 1, limit = 10, startDate= moment(), endDate=moment() } = req.body;
 
-    console.log('code:', code, 'name:', name, 'commerce:', commerce, 'page:', page, 'limit:', limit, 'date:', startDate +' - '+ endDate);
+    // console.log('code:', code, 'name:', name, 'commerce:', commerce, 'page:', page, 'limit:', limit, 'date:', startDate +' - '+ endDate);
 
   
     

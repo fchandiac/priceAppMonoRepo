@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="122px" viewBox="0 0 300 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="price-tag-svgrepo-com" transform="translate(239.000000, 59.000000)" fill="#000000" fill-rule="nonzero" stroke="#979797">
+            <path d="M54.9742853,25.5255 L30.474381,1.0255 C29.8181335,0.36925 28.929137,0 27.9998906,0 L3.49998633,0 C1.56536889,0 0,1.565375 0,3.5 L0,28 C0,28.92925 0.369248558,29.81825 1.02549599,30.4745 L25.5254003,54.9745 C26.2087726,55.657875 27.1047691,56 27.9998906,56 C28.8950121,56 29.7910086,55.657875 30.474381,54.9745 L54.9742853,30.4745 C56.3419049,29.10775 56.3419049,26.89225 54.9742853,25.5255 Z M17.4999316,24.5035 C13.6341967,24.5035 10.499959,21.36925 10.499959,17.5035 C10.499959,13.63775 13.6341967,10.5035 17.4999316,10.5035 C21.3656665,10.5035 24.4999043,13.63775 24.4999043,17.5035 C24.4999043,21.36925 21.3656665,24.5035 17.4999316,24.5035 Z" id="Shape"></path>
+        </g>
+        <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="234" height="93" rx="19"></rect>
+        <circle id="Oval" stroke="#979797" fill="#FEFEFE" cx="217.5" cy="76.5" r="7"></circle>
+        <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="216.5" y="73.5" width="43" height="6" rx="3"></rect>
+        <text id="PriceApp" font-family="PTMono-Bold, PT Mono" font-size="42" font-weight="bold" fill="#FFFFFF">
+            <tspan x="16.2" y="44">PriceApp</tspan>
+        </text>
+    </g>
+</svg>

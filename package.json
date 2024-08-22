@@ -1,8 +1,8 @@
 {
   "name": "price-app",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.1",
+  "description": "Apps for prices",
+  "author": "Felipe Chandía Castillo",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -20,6 +20,7 @@
     "start:api": "npm --prefix apps/api run start",
     "start": "concurrently \"npm run start:next\" \"npm run start:api\"",
     "build": "npm --prefix apps/api run build && npm --prefix apps/next-app run build",
+    "build:next": "npm --prefix apps/next-app run build",
     "dev": "concurrently \"npm run dev:next\" \"npm run dev:api\"",
     "dev:next": "npm --prefix apps/next-app run dev",
     "dev:api": "npm --prefix apps/api run dev"
@@ -41,8 +42,22 @@
     "reflect-metadata": "^0.2.0",
     "rimraf": "^6.0.1",
     "rxjs": "^7.8.1",
-    "xlsx": "^0.18.5",
-    "xlsx-populate": "^1.21.0"
+    "xlsx-populate": "^1.21.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.6",
+    "@mui/x-charts": "^7.13.0",
+    "@mui/x-date-pickers": "^7.13.0",
+    "chart.js": "^4.4.3",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-to-print": "^2.15.1",
+    "recharts": "^2.12.7",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

@@ -2,6 +2,8 @@
 import { Box, Typography, List, ListItem, ListItemText } from "@mui/material";
 import React, { useState } from "react";
 import Link from "next/link";
+import logo from "../public/priceAppLogo.svg";
+
 
 
 import "./globals.css";
@@ -30,9 +32,9 @@ export default function RootLayout({ children }) {
               backgroundColor: "grey.300",
             }}
           >
-            <Typography variant="h6" sx={{ marginBottom: "20px" }}>
-              PricesApp
-            </Typography>
+            <Box sx={{ padding: 2 }}>
+            <img src={'/priceAppLogo.svg'} alt="logo" width="100%" height="100%" />
+            </Box>
 
             <List>
               <Link href="/" passHref legacyBehavior>
