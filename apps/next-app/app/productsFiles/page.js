@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import FileUploadIcon from "@mui/icons-material/FileUpload";
 import CachedIcon from "@mui/icons-material/Cached";
-import ProductsFileList from "../../components/files/productsFileList";
+import ProductsFileList from "../../components/files/ProductsFileList";
 import UploadProductsDialog from "../../components/UploadProductsDialog";
 import useLoadProducts from "../../hooks/useLoadProducts";
 

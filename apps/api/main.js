@@ -4,7 +4,7 @@ const cors = require('cors');
 
 
 
-const port = 3001; // O usa process.env.PORT si prefieres configuración a través de variables de entorno
+const port = 5001; // O usa process.env.PORT si prefieres configuración a través de variables de entorno
 const app = express();
 
 // Configuración de la aplicación
@@ -34,12 +34,12 @@ initializeDatabase((err) => {
 
 // Ruta GET de prueba
 app.get('/', (req, res) => {
-  res.send('Servidor funcionando correctamente en el puerto 3001');
+  res.send(`Servidor escuchando en puerto:${port}`);
 });
 
 // Inicia el servidor 
 app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+  console.log(`Servidor escuchando en puerto:${port}`);
 });
 
 
