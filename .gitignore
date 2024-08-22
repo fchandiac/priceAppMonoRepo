@@ -8,6 +8,7 @@
 
 /apps/*/.next
 
+
 # Logs
 logs
 *.log
